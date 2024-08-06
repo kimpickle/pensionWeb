@@ -1,0 +1,314 @@
+﻿<!doctype html>
+<html lang="ko">
+	<head>
+		<meta charset="utf-8">
+		<title>김민희-프론트 기본</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<script src="js/index.js" ></script>
+		<script src="js/navMenu.js" ></script>
+		<script src="js/topBbq.js" ></script>
+		<style>
+			@font-face {
+				font-family: 'Esamanru7Bold';
+				src: url(font/esamanru-Bold.ttf);
+				font-weight: 700;
+				font-style: normal;
+			}
+			
+			@font-face {
+				font-family: 'Esamanru4Medium';
+				src: url(font/esamanru-Medium.ttf);
+				font-weight: 400;
+				font-style: normal;
+			}
+			
+			@font-face {
+				font-family: 'Esamanru3Regular';
+				src: url(font/esamanru-Light.ttf);
+				font-weight: 300;
+				font-style: normal;
+			}
+			
+
+		</style>
+	</head>
+	<body>
+		<div id="wrapper">
+			<div id="header">
+				<div class="logo">
+					<a href="#"><img src="images/logo.png" alt="360도 로고" /></a>
+				</div>
+				<div class="login">
+					<ul>
+						<li><a href="#">로그인</a> | </li>
+						<li><a href="#">회원가입</a></li>
+						<li><a class="search"><img src="images/search.png"></a></li>
+					</ul>
+				</div>
+				 <div id="popUp">
+					<ul class="popBt">
+						<li><a class="today" name="today_close" >오늘 그만보기</a></li>
+						<li><a class="esc">닫기</a></li>
+					</ul>
+					<div class="popupImg">
+						<p><img src="images/popUp.jpg" alt="팝업창이미지" /></p>
+					</div>
+				</div><!-- popUp 끝 -->
+				
+				<div id="parent">
+					<div id="mainSlide">
+						<ul> <!-- 1200 * 500 -->
+							<li class="main1"><img src="images/main1.jpg" alt="메인페이지1"></li>
+							<!-- 인덱스번호 : 0 -->
+							<li class="main2"><img src="images/main2.jpg" alt="메인페이지2"></li>
+							<!-- 인덱스번호 : 1 -->
+							<li class="main3"><img src="images/main3.jpg" alt="메인페이지3"></li>
+							<!-- 인덱스번호 : 2 -->
+							<li class="main4"><img src="images/main4.jpg" alt="메인페이지4"></li>
+							<!-- 인덱스번호 : 3 -->
+						</ul>
+					</div>
+				</div> <!-- parent 끝 -->
+				
+				<h2 class="hdd">주메뉴</h2>
+				<div id="mainNav">
+					<img src="images/mainNav.png">
+				</div>
+				<div id="navGnb">
+					<ul id="gnb">
+						<li>
+							<div class="snd"><a href="#">360˚</a>
+								<ul class="sub1">
+									<li><a href="#">360˚ 소개</a></li>
+									<li><a href="#">외관 보기</a></li>
+									<li><a href="#">내부 보기</a></li>
+								</ul>
+							</div>
+						</li>
+						<li>
+							<div class="snd"><a href="#">지역별 펜션</a>
+								<ul class="sub2">
+									<li><a href="#">전체</a></li>
+									<li><a href="#">강원</a></li>
+									<li><a href="#">서울</a></li>
+									<li><a href="#">인천</a></li>
+									<li><a href="#">충남</a></li>
+									<li><a href="#">충북</a></li>
+									<li><a href="#">전남</a></li>
+									<li><a href="#">전북</a></li>
+									<li><a href="#">울산</a></li>
+									<li><a href="#">경남</a></li>
+									<li><a href="#">경북</a></li>
+									<li><a href="#">부산</a></li>
+									<li><a href="#">제주</a></li>
+								</ul>
+							</div>
+						</li>
+						<li>
+							<div class="snd"><a href="#">숙박 객실</a>
+								<ul class="sub3">
+									<li><a href="#">스텐다드룸</a></li>
+									<li><a href="#">디럭스룸</a></li>
+									<li><a href="#">스위트룸</a></li>
+									<li><a href="#">패밀리룸</a></li>
+									<li><a href="#">커플룸</a></li>
+									<li><a href="#">복층룸</a></li>
+									<li><a href="#">테라스룸</a></li>
+									<li><a href="#">풀빌라</a></li>
+									<li><a href="#">글램핑룸</a></li>
+								</ul>
+							</div>
+						</li>
+						<li>
+							<div class="snd"><a href="#">바베큐 펜션</a>
+								<ul class="sub4">
+									<li><a href="#">개인 바베큐장 펜션</a></li>
+									<li><a href="#">공용 바베큐장 펜션</a></li>
+									<li><a href="#">야외 바베큐장 펜션</a></li>
+								</ul>
+							</div>
+						</li>
+						<li>
+							<div class="snd"><a href="#">즐길 거리</a>
+								<ul class="sub5">
+									<li><a href="#">수영장</a></li>
+									<li><a href="#">스파 및 사우나</a></li>
+									<li><a href="#">하이킹 및 산책로</a></li>
+									<li><a href="#">운동 시설</a></li>
+									<li><a href="#">캠프파이어</a></li>
+									<li><a href="#">놀이방 및 게임룸</a></li>
+									<li><a href="#">노래방</a></li>
+									<li><a href="#">애견 통반 시설</a></li>
+								</ul>
+							</div>
+						</li>
+						<li>
+							<div class="snd"><a href="#">예약 안내</a>
+								<ul class="sub6">
+									<li><a href="#">예약 안내</a></li>
+									<li><a href="#">문의 · 공지사항</a></li>
+								</ul>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div> <!-- header 끝 -->
+			
+			<div id="container">
+				<h3 class="bestTop"><img src="images/bestText.png" alt="베스트인기 제목"></h3>
+				<div id="valTopZip">
+					<div id="valTop">
+						<div id="vt1">
+							<div class="zip">
+								<div class="val">￦150,000~</div><span class="inwon">최소 2인 / 최대 8인</span>
+								<a href="#"><p class="readTop">자세히 보기</p></a>
+							</div>
+						</div>
+					</div>
+					<div id="valTop">
+						<div id="vt2">
+							<div class="zip">
+								<div class="val">￦349,000~</div><span class="inwon">최소 2인 / 최대 6인</span>
+								<a href="#"><p class="readTop">자세히 보기</p></a>
+							</div>
+						</div>
+					</div>
+					<div id="valTop">
+						<div id="vt3">
+							<div class="zip">
+								<div class="val">￦456,000~</div><span class="inwon">최소 2인 / 최대 6인</span>
+								<a href="#"><p class="readTop">자세히 보기</p></a>
+							</div>
+						</div>
+					</div>
+					<div id="valTop">
+						<div id="vt4">
+							<div class="zip">
+								<div class="val">￦180,000~</div><span class="inwon">최소 2인 / 최대 4인</span>
+								<a href="#"><p class="readTop">자세히 보기</p></a>
+							</div>
+						</div>
+					</div>
+				</div> <!-- valTopZip 끝 -->
+				
+				<div id="bt">
+					<div class="top">
+						<img src="images/인기top1.jpg" alt="인기펜션 보문 아느온풀빌라" /><p>보문 아느온풀빌라&nbsp;<span>경북/경주</span></p>
+					</div>
+					<div class="top">
+						<img src="images/인기top2.jpg" alt="인기펜션 언포 풀빌라" /><p>언포 풀빌라<span>경남/남해</span></p>	
+					</div>
+					<div class="top">
+						<img src="images/인기top3.jpg" alt="인기펜션 까사드발리" /><p>까사드발리<span>경남/남해</span></p>
+					</div>
+					<div class="top">
+						<img src="images/인기top4.jpg" alt="인기펜션 빌라 181 풀빌라" /><p>빌라 181 풀빌라<span>경남/거제</span></p>
+					</div>
+				</div> <!-- bestTop 끝 -->
+				
+				<h3 class="bbqTop"><img src="images/bbqText.png" alt="바베큐top 제목"></h3>
+				
+				<div id="valBbqZip">
+					<div id="valBbq">
+						<div id="vb1">
+							<div class="val">￦140,400~</div><span class="inwon">최소 2인 / 최대 5인</span>
+							<a href="#"><p class="readTop">자세히 보기</p></a>
+						</div>
+					</div> <!-- valBbq 끝 -->
+					<div id="valBbq">
+						<div id="vb2">
+							<div class="val">￦230,000~</div><span class="inwon">최소 2인 / 최대 6인</span>
+							<a href="#"><p class="readTop">자세히 보기</p></a>
+						</div>
+					</div> <!-- valBbq 끝 -->
+					<div id="valBbq">
+						<div id="vb3">
+							<div class="val">￦169,000~</div><span class="inwon">최소 2인 / 최대 8인</span>
+							<a href="#"><p class="readTop">자세히 보기</p></a>
+						</div>
+					</div> <!-- valBbq 끝 -->
+					<div id="valBbq">
+						<div id="vb4">
+							<div class="val">￦112,000~</div><span class="inwon">최소 2인 / 최대 6인</span>
+							<a href="#"><p class="readTop">자세히 보기</p></a>
+						</div>
+					</div> <!-- valBbq 끝 -->
+				</div> <!-- valBbqZip 끝 -->
+				
+				<div id="qt">
+					<div class="bbq">
+						<img src="images/바베큐top1.jpg" alt="바베큐 환타지콜라보리조트" /><p>환타지콜라보리조트<span>가평</span></p>
+					</div>
+					<div class="bbq">
+						<img src="images/바베큐top2.jpg" alt="바베큐 알베로산토" /><p>알베로산토<span>파주</span></p>
+					</div>
+					<div class="bbq">
+						<img src="images/바베큐top3.jpg" alt="바베큐 테라스의 아침" /><p>테라스의 아침<span>홍천</span></p>
+					</div>
+					<div class="bbq">
+						<img src="images/바베큐top4.jpg" alt="바베큐 한옥호텔 춘추관" /><p>한옥호텔 춘추관<span>경주</span></p>
+					</div>
+				</div> <!-- qt 끝 -->
+
+				<div id="contents">
+					<div id="playText">
+						<h3 class="enjoyText"><img src="images/playText.png" alt="다양한 즐길 거리"></h3>
+					</div>
+					
+					<div id="parent2">
+						<div id="playSlide">
+							<ul> <!-- 1200 * 569 -->
+								<li class="play"><img src="images/즐길거리1.jpg" alt="pc room" /></li>
+								<!-- 인덱스번호 : 0 -->
+								<li class="play"><img src="images/즐길거리2.jpg" alt="spa-온천, 목욕탕, 사우나" /></li>
+								<!-- 인덱스번호 : 1 -->
+								<li class="play"><img src="images/즐길거리3.jpg" alt="내부 수영장, 외부 수영장" /></li>
+								<!-- 인덱스번호 : 2 -->
+								<li class="play"><img src="images/즐길거리4.jpg" alt="야외 바베큐" /></li>
+								<!-- 인덱스번호 : 3 -->
+							</ul> 
+						</div> <!-- playSlide 끝 -->
+					</div> <!-- parent2 끝 -->
+				</div> <!-- contents 끝 -->
+				<div id="reservation">
+					<div class="yeyakBg">
+						<img src="images/yeyak_Bg.jpg" alt="예약 안내 및 문의공지사항" />
+					</div> <!-- yeyakBg 끝 -->
+					<div id="ane">
+						<div class="yeyak"><img src="images/예약안내.png" alt="예약 안내 아이콘" /></div>
+						<p class="yeyakAne"><a href="#">예약 안내</a></p>
+						<div class="munyea"><img src="images/문의공지.png" alt="문의공지사항 아이콘" /></div>
+						<p class="yeyakGongi"><a href="#">문의·공지사항</a></p>
+					</div>
+				</div> <!-- reservation 끝 -->
+					
+			</div> <!-- container 끝 -->		
+		</div> <!-- wrapper 끝 -->
+		<div id="footer">
+			<div id="samback">
+				<div class="ftLogo"><img src="images/logo2.png" alt="360도 로고이미지"></div>
+				<div class="dep">
+					<p>대표자 : 김민희 | 전화번호 : 010-1234-5678 <br /> 주소 : 경기 수원시 팔당구 향교로 24 <br /> 사업자번호 : 201-56-96385 <br /> 통신판매번호 : -   </p>
+					<div class="iyong">
+						<span><a href="#">이용약관&nbsp</a> | </span>
+						<span><a href="#">&nbsp개인정보취급방침&nbsp</a> | </span>
+						<span><a href="#">&nbsp홈페이지제작안내</a></span>
+					</div>
+				</div>
+				<div class="workTime">
+					<p>근무시간 : 월 ~ 금 AM 9:00 ~ PM 7:00</p><br />
+					<p>점심시간 : PM12 :00 ~ PM 1 : 00</p><br />
+					<p>고객센터 : AM 10: 00 ~ PM6 : 00</p>
+				</div>
+				
+				<div class="sns">
+					<a href="#"><img src="images/faceIcon.png"></a>
+					<a href="#"><img src="images/blogIcon.png"></a>
+					<a href="#"><img src="images/naverIcon.png"></a>
+				</div>
+			</div> <!-- samback 끝 -->
+		</div> <!-- footer 끝 -->
+	</body>
+</html>
